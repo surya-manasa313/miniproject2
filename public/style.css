@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  background: #f4f7fb;
+  padding: 40px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+#searchInput {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.faq {
+  background: white;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.question {
+  padding: 18px;
+  background: #4a90e2;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.answer {
+  padding: 18px;
+  display: none;
+  background: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+.answer.show {
+  display: block;
+}
+
+.delete-btn {
+  background: crimson;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.admin-panel {
+  margin-top: 40px;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.admin-panel h2 {
+  margin-bottom: 20px;
+}
+
+.admin-panel input,
+.admin-panel textarea {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.admin-panel textarea {
+  height: 120px;
+}
+
+.admin-panel button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  background: #4a90e2;
+  color: white;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.admin-panel button:hover {
+  background: #357bd8;
+}
+
+@media(max-width: 768px) {
+  body {
+    padding: 20px;
+  }
+
+  .question {
+    font-size: 16px;
+  }
+}

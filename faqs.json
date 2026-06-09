@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "question": "What is HTML?",
+    "answer": "HTML is used to structure web pages."
+  },
+  {
+    "id": 2,
+    "question": "What is CSS?",
+    "answer": "CSS is used for styling web pages."
+  },
+  {
+    "id": 3,
+    "question": "What is JavaScript?",
+    "answer": "JavaScript adds interactivity to websites."
+  }
+]
